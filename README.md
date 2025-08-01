@@ -13,3 +13,9 @@ git clone --bare https://github.com/junjiexh/dotfiles.git $HOME/.dotfiles
 # 4. Checkout the files to your home directory
 dotfiles checkout
 ```
+
+set up p10k:
+need to install oh-my-zsh in advance
+```
+echo '[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh' >> ~/.zshrc
+```
